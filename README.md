@@ -1,5 +1,6 @@
 # Kafka-Twitter-Streaming
 Streaming twitter followers user objects with twitter API's using pykafka module, this is only for development purposes not meant for production.
+
 ### Prerequisite:-
 *  Install *Kafka:* https://kafka.apache.org/downloads
 * *Python 3* : https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
