@@ -38,5 +38,5 @@ Streaming twitter followers user objects with twitter API's using pykafka module
 
 
 ### Stating kafka producer and consumer:
-* Start kafka producer: **`` python3 twitter_kafka_consumer.py ``**
-* Start kafka consumer: **`` python3 twitter_producer_ids_lookup.py ``**
+* Start kafka producer: **`` python3 twitter_producer_ids_lookup.py ``** 
+* Start kafka consumer: ***`` python3 twitter_kafka_consumer.py ``**
