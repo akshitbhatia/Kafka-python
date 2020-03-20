@@ -1,5 +1,4 @@
 from pykafka import KafkaClient
-from pykafka.common import OffsetType
 from utils import database
 import config
 import json

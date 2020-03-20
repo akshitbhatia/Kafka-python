@@ -1,6 +1,7 @@
 import json
+import os
 
-with open('/home/akshit/Desktop/kafka-python/config.json', 'r') as f:
+with open(os.path.dirname(os.path.abspath(__file__))+'/config.json', 'r') as f:
     datastore = json.load(f)
 
 # Twitter cred
@@ -25,5 +26,3 @@ consumer_group=datastore.get('kafka_cred').get('consumer_group')
 
 #Twitter username to fetch
 username=datastore.get('twitter_user_to_fetch').get('user_name')
-
-

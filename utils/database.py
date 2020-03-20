@@ -10,7 +10,7 @@ def write_UserData(user_data):
                                       database=config.dbname)
         cursor = connection.cursor()
 
-        deleting_requested="""INSERT INTO "athlete".twitter_userdata(id,  user_name, secondary_name, created_at, description,
+        deleting_requested="""INSERT INTO "public".twitter_userdata(id,  user_name, secondary_name, created_at, description,
         profile_url, profile_img_url, properties, verified, private ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
 
         cursor.execute(deleting_requested, user_data)
