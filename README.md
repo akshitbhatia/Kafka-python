@@ -1,4 +1,4 @@
-# Kafka-python
+# Kafka-Twitter-Streaming
 Streaming twitter followers user objects with twitter API's using pykafka module, this is only for development purposes not meant for production.
 
 ### Prerequisite:-
