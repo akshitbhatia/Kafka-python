@@ -1,0 +1,29 @@
+{
+  "twitter_cred": {
+    "access_token" : "821990838339153920-W3TG2BJJjKPPnmsaDq0LFBcff7sJVBJ",
+    "access_token_secret" : "beXT8TymUBzGarEGGUDdkVR9TO0xcluvWNH0enfnIFXrl",
+    "consumer_key" :  "eOW590nux2w02i4LPQPRpxKHz",
+    "consumer_secret" :  "CRMI9em9vkuR3I8BNc3N5ISHtrqCml5Ld8Sp11HhMnfUDpg8Iw",
+    "bearer_token":"AAAAAAAAAAAAAAAAAAAAALMbCwEAAAAAsvU3JB6NlvCCJgd9Hlv%2FeL1IWD0%3DxAPGzakr6m7Kzg36H2RBown6OiGLzwcFhn8ueCZvBEG4Rs2XuA"
+  },
+  "DataBase_cred": {
+    "user": "fanlytiks",
+    "host": "127.0.0.1",
+    "password": "1045",
+    "port":"5432",
+    "dbname":"fbserver"
+  },
+  "kafka_cred": {
+    "topic": "fanlytiks_twitter_67",
+    "broker": ["localhost:9092"],
+    "zookeeper_connect": ["localhost:2181"],
+    "consumer_group": "twitter_followers_consumer_group"
+  },
+  "twitter_user_to_fetch": {
+    "user_name": "rifatabdullahh"
+  }
+}
+
+
+
+
