@@ -20,7 +20,7 @@
     "consumer_group": "kafka_consumer_group"
   },
   "twitter_user_to_fetch": {
-    "user_name": "TeamMessi"
+    "user_name": "XXX"
   }
 }
 
